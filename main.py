@@ -1,7 +1,6 @@
 # Password Generator 
 # By S0CR4M
 
-
 #---Imports
 import string
 import random
