@@ -11,8 +11,6 @@ alpha = list(string.ascii_letters)
 numbers = list(string.digits)
 punct = list(string.punctuation)
 
-#---Defined Functions
-
 #---Loop check
 check = True
 
@@ -45,6 +43,7 @@ while(check):
                 password += numbers[random.randrange(len(numbers))]
             else:
                 password += punct[random.randrange(len(punct))]
+
     print(password)
     checkSecond = input("\nGenerate a new password? Y/N: ")
     if(checkSecond == 'y' or checkSecond == 'Y'): pass
